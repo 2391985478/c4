@@ -14,6 +14,7 @@ int main(){
     printf("xitong\n");
     struct student arr[1000];
     int index = 0;
+    int sum = 0;
     
 
     while(1){
@@ -84,6 +85,18 @@ int main(){
             scanf("%c", &x);
         }
         if(code == 4){
+            for(int i = 0; i < index;i++)
+            {
+                sum=arr[i].yuwen+arr[i].shuxue+arr[i].yingyu;
+
+                if(sum<180){
+                    printf("di%dxuesheng%sbujige\n",i+1,arr[i].name);
+                }
+            }
+            printf("wancheng,huichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
             
         }
         if(code == 5){
