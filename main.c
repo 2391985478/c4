@@ -13,7 +13,7 @@ int main(){
 
     printf("xitong\n");
     struct student arr[1000];
-    int index=0;
+    int index = 0;
     
 
     while(1){
@@ -31,6 +31,23 @@ int main(){
         scanf("%d",&code);
 
         if(code == 1){
+            printf("xingming\n");
+            scanf("%s",arr[index].name);
+
+            printf("yuwenchengji\n");
+            scanf("%d",&(arr[index].yuwen));
+
+            printf("shuxuechengji\n");
+            scanf("%d",&(arr[index].shuxue));
+
+            printf("yingyuchengji\n");
+            scanf("%d",&(arr[index].yingyu));
+
+            index++;
+            printf("wancheng,huichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
 
         }
         if(code == 2){
