@@ -51,7 +51,18 @@ int main(){
 
         }
         if(code == 2){
-            
+            if(index > 0)
+            {
+
+                index--;
+                printf("shanchuchenggong,huichejixu\n");
+            }
+            else{
+                printf("shibai,huichejixu\n");
+            }
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if(code == 3){
             
