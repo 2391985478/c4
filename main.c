@@ -64,8 +64,24 @@ int main(){
             scanf("%c",&x);
             scanf("%c",&x);
         }
-        if(code == 3){
-            
+        if(code == 3)
+          {
+
+            if (index > 0)
+            {
+                for (int i = 0; i < index; i++)
+                {
+                    printf("xuesheng%syuwenwei%d,shuxuewei%d,yingyuwei%d\n", arr[i].name, arr[i].yuwen, arr[i].shuxue, arr[i].yingyu);
+                }
+            }
+            else
+            {
+                printf("wukexianshi\n");
+            }
+            printf("dianjihuichejixu\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
         }
         if(code == 4){
             
